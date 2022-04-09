@@ -1,0 +1,8 @@
+server=smtplib.SMTP_SSL("smtp.gmail.com", 465)
+
+server.login("global.dgsales@gmail.com", "Global@1566")
+server.sendmail("global.dgsales@gmail.com", 
+                "rushathapa1274@gmail.com",
+                "Hello. Welcome to Nepal Book Depot. You successfully logged in.")
+
+server.quit() 
